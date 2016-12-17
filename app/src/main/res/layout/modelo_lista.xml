@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <!-- IMAGEM -->
+    <ImageView
+        android:id="@+id/modeloImagem"
+        app:srcCompat="@drawable/jantar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- NOME -->
+    <TextView
+        android:id="@+id/modeloNome"
+        android:text="@string/nome"
+        android:layout_gravity="fill_horizontal"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="285dp" />
+
+    <!-- DESCRIÇÃO -->
+    <TextView
+        android:id="@+id/modeloDescricao"
+        android:text="@string/descricao"
+        android:layout_height="40dp"
+        android:layout_below="@+id/modeloNome"
+        android:layout_alignStart="@+id/modeloNome"
+        android:layout_width="200dp" />
+
+    <!-- DADO -->
+    <TextView
+        android:id="@+id/modeloDado"
+        android:text="@string/dado"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/modeloDescricao"
+        android:layout_alignBottom="@+id/modeloDescricao"
+        android:layout_alignParentEnd="true"
+        android:layout_width="85dp" />
+</RelativeLayout>

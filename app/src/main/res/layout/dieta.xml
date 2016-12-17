@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!-- IMAGEM ÁGUA -->
+    <ImageView
+        android:id="@+id/dietaImagemAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/copo_agua"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <!-- TEXT VIEW AGUA -->
+    <TextView
+        android:id="@+id/dietaAgua"
+        android:text="ÁGUA 1500ml"
+        android:layout_width="226dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/dietaImagemAgua"
+        android:layout_toEndOf="@+id/dietaImagemAgua"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"/>
+
+    <!-- IMAGEM CALORIAS -->
+    <ImageView
+        android:id="@+id/dietaImagemCaloria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jantar"
+        android:layout_alignTop="@+id/dietaCalorias"
+        android:layout_alignParentStart="true" />
+
+    <!-- TEXT VIEW CALORIAS -->
+    <TextView
+        android:id="@+id/dietaCalorias"
+        android:text="CALOTIAS 897"
+        android:layout_width="226dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/dietaAgua"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/dietaImagemCaloria"
+        android:clickable="true"/>
+
+    <!-- GRÁFICO -->
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dietaCalorias">
+    </com.jjoe64.graphview.GraphView>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Controle Dieta</string>
+    <string name="nome">Nome:</string>
+    <string name="email">E-Mail:</string>
+    <string name="senha">Senha:</string>
+    <string name="pesoAtual">Peso atual:</string>
+    <string name="altura">Altura:</string>
+    <string name="sexo">Sexo</string>
+    <string name="dataNascimetno">Data de nascimento:(DD-MM-AAA)</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="calorias">Caloria:</string>
+    <string name="quantidadeML">Quantidade em ml:</string>
+    <string name="pesoAlimento">Peso do aliemento:</string>
+    <string name="data">Data:(DD-MM-AAA)</string>
+
+    <string name="descricao">Descrição</string>
+    <string name="dado">dado</string>
+
+    <string name="logar">Logar</string>
+    <string name="salvar">Salvar</string>
+    <string name="novoUsuario">Novo usuário</string>
+    <string name="adicionarRefeicao">Adicionar refeição</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="atualizarDados">Atualizar dados</string>
+
+    <string-array name="sexo">
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <string-array name="objetivo">
+        <item>Perder peso</item>
+        <item>Manter peso</item>
+        <item>Ganhar massa muscular</item>
+    </string-array>
+
+    <string-array name="atividade">
+        <item>Sedentário</item>
+        <item>Levemente ativo</item>
+        <item>Moderadamente ativo</item>
+        <item>Altamente ativo</item>
+        <item>Extremamente ativo</item>
+    </string-array>
+</resources>

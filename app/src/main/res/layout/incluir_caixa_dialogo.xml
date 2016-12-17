@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MediaActivity"
+        android:id="@+id/linearLayout">
+
+        // NOME
+        <EditText
+            android:id="@+id/incluirNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/nome"
+            android:inputType="text" />
+
+        // CALORIA
+        <EditText
+            android:id="@+id/incluirCalorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/calorias"
+            android:inputType="text" />
+
+        // PESO ALIMENTO
+        <EditText
+            android:id="@+id/incluirPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/pesoAlimento"
+            android:inputType="number" />
+
+        // DATA
+        <EditText
+            android:id="@+id/incluirData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/data"
+            android:inputType="text" />
+    </LinearLayout>
+
+    // SALVAR
+    <Button
+        android:id="@+id/incluirCancelar"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/cancelar"
+        android:textSize="15sp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_width="170dp" />
+
+    // Cancelar
+    <Button
+        android:id="@+id/incluirSalvar"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/salvar"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/incluirCancelar"
+        android:layout_alignBottom="@+id/incluirCancelar"
+        android:layout_toStartOf="@+id/incluirCancelar"
+        android:layout_width="170dp" />
+</RelativeLayout>

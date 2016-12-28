@@ -8,11 +8,11 @@ Sistema de login
 
 ![Interface do sistema.](https://4.bp.blogspot.com/-tkQIIVLFd8Q/WF_kTj65XyI/AAAAAAAAAqE/bxtYjWCtCRsF8FAllCmPM8KgSyFSgo1rgCLcB/s400/login.png)
 
-Controle de consumo de água e calorias ingejidas durante o dia, além do grafico para acompanhamento do peso.
+Controle de consumo de água e calorias ingeridas durante o dia, além do gráfico para acompanhamento do peso.
 
 ![Interface do sistema.](https://3.bp.blogspot.com/-s11YUQWGl_g/WF_k9ThEV2I/AAAAAAAAAqI/W8P8u9KgAQsLstwhuSas56JF9eIkl4CQgCLcB/s400/home.png)
 
-Calculo do número máximo de calorias baseado no perfil do usuário, levando em conta sua idade, peso e altura.
+Calculo do número máximo de calorias baseado no perfil do usuário, levando em conta a idade, peso e altura do usuário.
 
 ![Interface do sistema.](https://1.bp.blogspot.com/-RXvZ2OdbotI/WF_lxvvxR7I/AAAAAAAAAqQ/DLYrVWIyXoslNcEe63msYhCgrPLvviWrQCLcB/s400/perfil.png)
 

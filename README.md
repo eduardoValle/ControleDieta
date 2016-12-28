@@ -1,6 +1,6 @@
 # ControleDieta
 
-Projeto de controle de dieta desenvolvido para a plataforma Android.
+Aplicativo de controle de dieta desenvolvido para a plataforma Android.
 
 #Interface do sistema
 

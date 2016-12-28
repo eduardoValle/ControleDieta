@@ -1,4 +1,4 @@
-# ControleDieta
+# Controle de dieta
 
 Aplicativo de controle de dieta desenvolvido para a plataforma Android.
 
